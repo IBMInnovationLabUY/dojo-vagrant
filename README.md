@@ -5,14 +5,14 @@ Vagrant es una herramienta que nos facilita el trabajo con maquinas virtuales.
 	1. Instalar Vagrant (https://www.vagrantup.com/downloads.html)
 	2. Instalar VirtualBox (https://www.virtualbox.org/wiki/Downloads)
 	
-** Nota: ** VirtualBox necesita que Hyper visor de windows este deshabilitado.
-´´´
-Podrás deshabilitarlo ejecutando: bcdedit /set hypervisorlaunchtype off
+**Nota:** 
+	* VirtualBox necesita que Hyper visor de windows este deshabilitado.
+	
+	* Podrás deshabilitarlo ejecutando: bcdedit /set hypervisorlaunchtype off
 
-* Luego podras volver a habilitarlo ejecutando: bcdedit /set hypervisorlaunchtype auto
-siempre será necesario reiniciar Windows.
-´´´
-
+	* Luego podras volver a habilitarlo ejecutando: bcdedit /set hypervisorlaunchtype auto
+	siempre será necesario reiniciar Windows.
+	
 Con el comando 'vagrant -v'  veremos la version instalada.
 Box: serán las VM que usara Vagrant.
 Provider: serán por ej. VirtualBox, VMWare, Parallels, etc. 
